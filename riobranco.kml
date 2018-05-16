@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Turismo em Rio branco - AC</name>
+    <description>Rota turística para passeio a pé na capital do Acre, Rio Branco.</description>
+    <Style id="icon-503-FF8277-normal">
+      <IconStyle>
+        <color>ff7782ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-FF8277-highlight">
+      <IconStyle>
+        <color>ff7782ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-FF8277">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#pushpin-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#pushpin-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-4000-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-4000-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-B7DBAB-4000-76-normal">
+      <LineStyle>
+        <color>ffabdbb7</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4cabdbb7</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-B7DBAB-4000-76-highlight">
+      <LineStyle>
+        <color>ffabdbb7</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4cabdbb7</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-B7DBAB-4000-76">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-B7DBAB-4000-76-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-B7DBAB-4000-76-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Atrações turísticas</name>
+      <Placemark>
+        <name>Parque da Maternidade - Entrada principal</name>
+        <description>Pórtico de entrada do Parque da Maternidade</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.805429,-9.971471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque da Maternidade</name>
+        <description>Possui pista de rolamento para carros, ciclovias, calçamento para pedestre estruturado para a prática de caminhadas, playground, pista de skate, quadras de esporte, anfiteatro, biblioteca, museu, praças, restaurantes e lanchonetes</description>
+        <styleUrl>#poly-B7DBAB-4000-76</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -67.804914,-9.97183,0
+                -67.804742,-9.971006,0
+                -67.803712,-9.970224,0
+                -67.803497,-9.969654,0
+                -67.80412,-9.968787,0
+                -67.805707,-9.96866,0
+                -67.806351,-9.968132,0
+                -67.806931,-9.967942,0
+                -67.807789,-9.967244,0
+                -67.80869,-9.967223,0
+                -67.809227,-9.968026,0
+                -67.809591,-9.968534,0
+                -67.81045,-9.969062,0
+                -67.812102,-9.968999,0
+                -67.814012,-9.96809,0
+                -67.815149,-9.968365,0
+                -67.816286,-9.96902,0
+                -67.818046,-9.969083,0
+                -67.819548,-9.969485,0
+                -67.820878,-9.970288,0
+                -67.82223,-9.970541,0
+                -67.823646,-9.970288,0
+                -67.825599,-9.969611,0
+                -67.826843,-9.969421,0
+                -67.828496,-9.969168,0
+                -67.829311,-9.968914,0
+                -67.829976,-9.969125,0
+                -67.830341,-9.97014,0
+                -67.830448,-9.97071,0
+                -67.831521,-9.971281,0
+                -67.831628,-9.971683,0
+                -67.830813,-9.971492,0
+                -67.829611,-9.970541,0
+                -67.828882,-9.969569,0
+                -67.825406,-9.970034,0
+                -67.823367,-9.970753,0
+                -67.821479,-9.970816,0
+                -67.818689,-9.969654,0
+                -67.815857,-9.969316,0
+                -67.814226,-9.968534,0
+                -67.812402,-9.969485,0
+                -67.810771,-9.969527,0
+                -67.809205,-9.968745,0
+                -67.808411,-9.967836,0
+                -67.807724,-9.967794,0
+                -67.806716,-9.968597,0
+                -67.805793,-9.969146,0
+                -67.804441,-9.969675,0
+                -67.804785,-9.969971,0
+                -67.805471,-9.970837,0
+                -67.805686,-9.971704,0
+                -67.804914,-9.97183,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Biblioteca da Floresta</name>
+        <description>Possui um acervo especializado em assuntos e autores da Amazônia</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.805048,-9.968576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maternidade</name>
+        <description>Prédio histórico</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.812338,-9.969754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oca</name>
+        <description>Central de Serviços Públicos</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.806662,-9.972908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casarão</name>
+        <description>Casarão da resistência acreana, funciona também um boteco</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.808894,-9.973902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Praça Plácido de Castro</name>
+        <description><![CDATA[Homenageia o comandante da Revolução Acreana. Possui espelhos d'água, bancos e barraquinhas de comida]]></description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.809892,-9.972824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museu da Borracha</name>
+        <description>Reuni um importante acervo de peças de arqueologia, paleontologia, coleção de manuscritos e impressos da história do Acre</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.809307,-9.971387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Memorial dos Autonomistas</name>
+        <description>Inaugurado em 20 de setembro de 2002 para mostrar, difundir e preservar a história do Movimento Autonomista do Acre, movimento político responsável pela emancipação do Acre à condição de Estado. No memorial, está o túmulo do líder deste movimento José Guiomard dos Santos e de sua esposa Lídia Hames.</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.80986,-9.97415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catedral Nossa Senhora de Nazaré</name>
+        <description>Construção em estilo romano-basilical, possui três naves separadas com 36 vitrais coloridos na parte superior e 11 na inferior com cenas da Via Crusis; um mausoléu protegido com grades de ferro, com lápide demarcativa em granito, guarda os restos mortais do Bispo Dom Giocondo Maria Grotti; a abóbada em arco, sustentada por 26 colunas é pintada em carmesim e branco. Na nave principal, encontram-se quatro altares, sendo um com entalhe em madeira e em painel da Sagrada Eucaristia; a Catedral do Bispo; a cadeira do sacerdote, entalhada em madeira com representação do Juízo Final, formando uma belíssima obra de arte</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.810648,-9.974985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palácio Rio Branco</name>
+        <description>Sede do Governo do Acre, iniciou sua construção na década de 1920. No pátio do Palácio, podemos contemplar o Obelisco dos Heróis da Revolução, construído da década de 1930, em homenagem aos combatentes da Revolução Acreana e a fonte da sagração, popularmente conhecida como luminosa</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.809516,-9.975238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Velho</name>
+        <description>O antigo Mercado Municipal, mais conhecido como Mercado Velho foi construído no final da década de 20 - primeira grande construção em alvenaria da cidade</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.807596,-9.976675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Passarela sobre o Rio Acre</name>
+        <description>Construída com tecnologia de estaiamento, tem sua estabilidade garantida pelas curvas vertical e horizontal apoiadas em duas colunas com 42 metros de altura das quais descem os cabos que a sustenta</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.806925,-9.977748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bandeira</name>
+        <description>Monumento erguido à Bandeira Acreana</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.80876,-9.980294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugestão de caminhada</name>
+        <description>Traçado sugerido para caminhada no centro de Rio Branco</description>
+        <styleUrl>#line-000000-4000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.810589,-9.972729,0
+            -67.809259,-9.972137,0
+            -67.809629,-9.971196,0
+            -67.807869,-9.971392,0
+            -67.80516,-9.971841,0
+            -67.805396,-9.972142,0
+            -67.809811,-9.97406,0
+            -67.810428,-9.974435,0
+            -67.810503,-9.974874,0
+            -67.810299,-9.975096,0
+            -67.809768,-9.97508,0
+            -67.809291,-9.975893,0
+            -67.808765,-9.976718,0
+            -67.808449,-9.976755,0
+            -67.806689,-9.975957,0
+            -67.806593,-9.976147,0
+            -67.806711,-9.976348,0
+            -67.807569,-9.976718,0
+            -67.807129,-9.977579,0
+            -67.806169,-9.978244,0
+            -67.808679,-9.980337,0
+            -67.807183,-9.978815,0
+            -67.808653,-9.977352,0
+            -67.808669,-9.976908,0
+            -67.809817,-9.974208,0
+            -67.809822,-9.973104,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Terminal Rodoviário</name>
+        <description>Terminal urbano de ônibus</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.805032,-9.972221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calçadão da Gameleira</name>
+        <description>À margem direita do Rio Acre está situado o centro histórico mais antigo da cidade. É lá que encontramos um grande casario recém reformado cujas construções e opulências são a memória viva do apogeu da exploração da borracha e da castanha-do-brasil, vivido nas últimas décadas do século XIX e início do século XX</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.808025,-9.979523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Praça Povos da Floresta</name>
+        <description>Praça ornamentada com imponentes árvores, coretos adornados com paxiúbas, cipó e pórticos. Foi instituída para homenagear o líder seringueiro Chico Mendes, sendo representada por uma estátua conduzindo uma criança confeccionada em argila e bronze em tamanho natural. Na praça, encontra-se o “Centro de Atendimento ao Turista”, instalado no antigo “Bar Municipal”, edificado em 1945</description>
+        <styleUrl>#pushpin</styleUrl>
+        <Point>
+          <coordinates>
+            -67.809291,-9.975893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
